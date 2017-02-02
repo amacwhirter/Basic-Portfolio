@@ -129,7 +129,7 @@ hr {
 	margin: 10px;
 }
 
-p {
+.body-text {
 	color: #777777;
 }
 
@@ -144,4 +144,17 @@ p {
 	border-color: #dddddd;
 	float: right;
 	position: static;
+}
+
+.aside {
+	box-sizing: border-box;
+	float: right;
+}
+
+#link {
+	float: left;
+	margin: 0 auto;
+	padding: 20px 15px 5px 15px;
+}
+
 
