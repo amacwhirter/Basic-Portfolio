@@ -113,9 +113,18 @@ li a {
 	overflow-wrap: auto;
 }
 
-h2, h3 {
+.header-two {
 	font-family: "Georgia", Times, "Times New Roman", serif;
 	color: #4aaaa5;
+	font-size: 24px;
+	font-style: bolder;
+}
+
+.header-three {
+	font-family: "Georgia", Times, "Times New Roman", serif;
+	color: #4aaaa5;
+	font-size: 20px;
+	font-style: bolder;
 }
 
 hr {
@@ -157,4 +166,34 @@ hr {
 	padding: 20px 15px 5px 15px;
 }
 
+#portfolio {
+	box-sizing: border-box;
+	float: left;
+	width: 250px;
+	padding: 10px 50px 20px 80px;
+	position: relative;
+}
 
+.portfolio-text {
+	position: absolute;
+ 	bottom: 20px;
+ 	padding: 10px;
+ 	width: 180px;
+ 	height: 10%;
+ 	background-color: #4aaaa5;
+ 	text-align: center;
+ 	color: #dddddd;
+}
+
+input {
+	width: 100%;
+    padding: 10px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #dddddd;
+    border-radius: 2px;
+}
+
+input [type=submit] {
+	width: 20px;
+}
