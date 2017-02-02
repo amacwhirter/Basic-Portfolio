@@ -32,7 +32,7 @@ body {
 	color: #dddddd;
 	text-align: center;	
 	font-size: 12px;
-	line-height: 35px;
+	line-height: 50px;
 }
 
 .container {
@@ -146,7 +146,7 @@ hr {
 	box-sizing: border-box;
 	background-color: #ffffff;
 	width: 270px;
-	height: 200px;
+	height: 150px;
 	padding: 20px;
 	margin: 25px 0 10px 10px;
 	border: 1px solid;
@@ -176,24 +176,38 @@ hr {
 
 .portfolio-text {
 	position: absolute;
- 	bottom: 20px;
+ 	bottom: 40px;
  	padding: 10px;
  	width: 180px;
  	height: 10%;
  	background-color: #4aaaa5;
  	text-align: center;
  	color: #dddddd;
+ 	line-height: 25px;
+}
+
+label {
+	color: gray;
 }
 
 input {
 	width: 100%;
-    padding: 10px 20px;
+    padding: 5px 5px 5px 5px;
     margin: 8px 0;
     box-sizing: border-box;
     border: 1px solid #dddddd;
     border-radius: 2px;
+    overflow-wrap: auto;
 }
 
-input [type=submit] {
-	width: 20px;
+input[id=message] {
+	height: 200px;
+	text-align: left;
+}
+	
+
+input[type=submit] {
+	width: 100px;
+	background-color: #4aaaa5;
+	color: white;
 }
